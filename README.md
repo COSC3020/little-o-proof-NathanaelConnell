@@ -16,3 +16,7 @@ page](https://docs.github.com/en/get-started/writing-on-github/working-with-adva
 might help with the notation for mathematical expressions.
 
 $f(n)\in o(g(n)) \iff \forall c>0, \exists n_0, \forall n\ge n_0: f(n) < c g(n)$
+
+The definition of f(n) ∈ o(g(n)) is given by : for all c > 0, there exists an n(sub0) such that for all n >= n(sub0), f(n) < c * g(n).  This means that for any positive constant c, f(n) can be made arbitrarily small compared to g(n) as n becomes suffieciently large.  The definition of f(n) ∈ O(g(n)) states that there exists a constant c > 0 and an n(sub0) such that for all n >= n(sub0), f(n) <= c * g(n).  The fact that f(n) ∈ o(g(n)) implies that we can always find such a constant c that ensures f(n) <= c * g(n) for sufficiently large n.  So f(n) ∈ O(g(n)) follows directly from the definition of o(g(n)).
+
+"I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice."
